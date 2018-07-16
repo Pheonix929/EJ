@@ -1,0 +1,247 @@
+body {
+  min-height: 75rem; /* Can be removed; just added for demo purposes */
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.album {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 1rem;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+
+@media (min-width: 576px){
+  .logo {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -80px;
+  }
+  }
+
+  .logo {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -50px;
+  }
+
+
+.logo img{
+  width:100%;
+  max-width: 150px;
+  z-index: -99999;
+  position: relative;
+}
+
+#navbarHeader .emily img {
+  width: 100%;
+  max-width: 200px;
+  padding-right:20px;
+}
+
+kbd {
+  padding: .2rem .4rem;
+  font-size: 90%;
+  color: #fb405a;
+  background-color: transparent!IMPORTANT;
+  border-radius: .2rem;
+}
+
+.bg-inverse {
+  background-color: transparent!important;
+}
+
+#navbarHeader.bg-inverse {
+  background-color: #292b2c!important;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-toggler:focus, .navbar-inverse .navbar-toggler:hover {
+  color: rgb(41, 43, 44);
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-toggler {
+  color: rgb(41, 43, 44);
+}
+.navbar-toggler {
+  cursor: pointer;
+}
+.navbar-inverse.navbar-toggler {
+  border-color: rgb(41, 43, 44);
+}
+.navbar-inverse .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+cursor: pointer;
+}
+
+#gallery.navbar-inverse .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDMxLjQ5NCAzMS40OTQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMxLjQ5NCAzMS40OTQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiPgo8cGF0aCBkPSJNMTAuMjczLDUuMDA5YzAuNDQ0LTAuNDQ0LDEuMTQzLTAuNDQ0LDEuNTg3LDBjMC40MjksMC40MjksMC40MjksMS4xNDMsMCwxLjU3MWwtOC4wNDcsOC4wNDdoMjYuNTU0ICBjMC42MTksMCwxLjEyNywwLjQ5MiwxLjEyNywxLjExMWMwLDAuNjE5LTAuNTA4LDEuMTI3LTEuMTI3LDEuMTI3SDMuODEzbDguMDQ3LDguMDMyYzAuNDI5LDAuNDQ0LDAuNDI5LDEuMTU5LDAsMS41ODcgIGMtMC40NDQsMC40NDQtMS4xNDMsMC40NDQtMS41ODcsMGwtOS45NTItOS45NTJjLTAuNDI5LTAuNDI5LTAuNDI5LTEuMTQzLDAtMS41NzFMMTAuMjczLDUuMDA5eiIgZmlsbD0iIzdmN2Y3ZiIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K");
+cursor: pointer;
+}
+
+
+
+
+button:focus {outline:0;}
+
+.card img{
+  -webkit-box-shadow: 0px 6px 30px -8px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 6px 30px -8px rgba(0,0,0,0.3);
+box-shadow: 0px 6px 30px -8px rgba(0,0,0,0.3);
+transition: 0.3s; 
+cursor: pointer;
+}
+
+.card img:hover {
+  -webkit-box-shadow: 0px 6px 30px -8px rgba(0,0,0,0.9);
+-moz-box-shadow: 0px 6px 30px -8px rgba(0,0,0,0.9);
+box-shadow: 0px 6px 30px -8px rgba(0,0,0,0.9);
+}
+
+.social{
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+} 
+
+
+footer {
+    padding-top: 0rem!IMPORTANT;
+    padding-bottom: 1rem!IMPORTANT;
+}
+
+a {
+  color: #fb405b;
+}
+
+a:hover {
+  color: #747677;
+  text-decoration: none;
+}    
+
+a:focus {
+    color: #fb405b;
+    text-decoration: none;
+}
+
+#instagram {
+  width: 50px;
+  height: 50px;
+  background-image: url('./img/instagram.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  cursor: pointer;
+}
+
+#instagram:hover {
+  background-image: url('./img/instagram-hover.png');
+}
+
+#facebook {
+  width: 50px;
+  height: 50px;
+  background-image: url('./img/facebook.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  float:right;
+  cursor: pointer;
+}
+
+#facebook:hover {
+  background-image: url('./img/facebook-hover.png');
+}
+
+/*Responsive stuff*/
+
+@media only screen and (max-width: 600px) {
+    .card {
+        float: initial;
+        width: 100%;
+        padding: .75rem;
+        margin-bottom: 2rem;
+        border: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: initial; 
+        margin-left: initial;
+    }
+
+    .card img {
+        -webkit-box-shadow: 0px 6px 30px -8px rgba(0,0,0,0.3);
+        -moz-box-shadow: 0px 6px 30px -8px rgba(0,0,0,0.3);
+        box-shadow: 0px 6px 30px -8px rgba(0,0,0,0.3);
+        transition: 0.3s;
+        cursor: pointer;
+        width: 100%;
+    }
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu a {
+    padding: 5px;
+}
